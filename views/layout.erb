@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="styles/styles.css">
+	<title><%= @title %></title>
+</head>
+<body class="full-page-base-style">
+	
+	<header>
+		<nav class="navbar">
+			
+				<div id="home-logo">
+					<a href="/">
+						<img src="img/john_lena.jpg" title="John and Lena" alt="Me and my wife, Lena" id="john_lena">
+					</a>
+				</div>
+				<div class="unordered-list">
+					<ul class="nav-list">
+						<li class="nav-item">
+							<a href="/fizzbuzz" class="nav-color">FizzBuzz</a>
+						</li>
+						<li class="nav-center">
+							<a href="/factorial" class="nav-color">Factorial</a>
+						</li>
+						<li class="nav-item">
+							<a href="fibonacci" class="nav-color">Fibonacci</a>
+						</li>
+					</ul>
+				</div>
+			
+		</nav>
+	</header>
+
+	<%= yield %>	
+</body>
+</html>

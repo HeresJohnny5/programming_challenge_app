@@ -1,0 +1,175 @@
+.full-page-base-style {
+	margin-top: 0 !important;
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    line-height: 1.42857;
+    padding: 0;
+    margin: 0;
+    min-height: 100%;
+    background-color: rgba(77, 77, 77, 0.09);
+}
+
+.navbar {
+	height: 64px;
+	background-color: #3d3d3f;
+}
+
+.homepage-three-points {
+	height: 190px;
+}
+
+.three-point-container {
+	width: 70%;
+	height: 190px;
+	margin: 0 auto;
+	display: flex;
+}
+
+.point-first, .point-second, .point-third {
+	width: 386px;
+	padding: 35px;
+	background-color: white;
+}
+
+.point-first, .point-third {
+	border-left: 1px solid rgba(77, 77, 77, 0.3);
+	border-right: 1px solid rgba(77, 77, 77, 0.3);
+}
+
+.point-paragraph {
+	font-size: 12px;
+}
+
+h1, h2, h3 {
+	margin: 0;
+	text-align: center;
+	color: #4d4d4d;
+	font-weight: 400;
+}
+
+p {
+	font-weight: 300;
+}
+
+a {
+	text-decoration: none;
+	font-weight: 400;
+}
+
+hr.style-one {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+    margin: 5% 4% 2% 4%;
+}
+
+hr.programming-break {
+	border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+    margin: 5% 3% 2% 0%;
+}
+
+.bgimage {
+	background-image: url(/img/lazy_morning_programming.jpg);
+	background-position: center center;
+	background-size: cover;
+	height: 400px;
+}
+
+.head-text {
+	padding: 60px 0 48px;
+    text-align: center;
+}
+
+.furry-babies {
+	display: inline-block;
+	width: 30%;
+}
+
+#kratos, #flash, #nacho {
+	height: 175px;
+	border-radius: 50%;
+	margin-left: 28%;
+	margin-right: 1%;
+	margin-bottom: 10%;
+	border: 3px solid white;
+	box-shadow: 0px 0px 0px 2px #3d3d3f;
+}
+
+.programming-container {
+	background-color: white;
+    display: inline-block;
+    width: 44%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    box-shadow: 3px 2px 7px rgba(77, 77, 77, 0.3)
+}
+
+.programming-text {
+	font-weight: 300;
+	font-size: 14px;
+}
+
+.container {
+	margin-bottom: 5%;
+}
+
+.submit-button {
+	border: 0;
+}
+
+.programming-header {
+	text-align: left;
+}
+
+.programming-link {
+	font-weight: 300;
+}
+
+.nav-list {
+	margin: 0;
+	text-align: center;
+	padding: 0 50px;
+}
+
+.nav-item, .nav-center {
+	display: inline-block;
+	padding-top: 20px;
+}
+
+.nav-item a:hover, .nav-center a:hover {
+	text-decoration: underline;
+}
+
+.nav-color {
+	color: white;
+	font-weight: 300;
+}
+
+.nav-center {
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+#john_lena {
+	height: 60px;
+	border-radius: 50%;
+	margin-left: 38%;
+	padding-top: 2px;
+}
+
+#home-logo {
+	display: inline-block;
+	width: 30%;
+}
+
+.unordered-list {
+	float: right;
+	margin-right: 32%;
+	width: 38%;
+}
