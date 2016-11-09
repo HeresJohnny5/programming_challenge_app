@@ -16,7 +16,6 @@ get '/fizzbuzz' do
 end
 
 post '/fizzbuzz' do
-	erb :fizzbuzz
 	number = params[:fizzbuzz_number].to_i
 	session[:fizzbuzz] = FizzBuzzAlgorithm.new
 
@@ -32,12 +31,11 @@ get '/factorial' do
 end
 
 post '/factorial' do
-	erb :factorial
 	number = params[:factorial_number].to_i
 	session[:factorial] = FactorialAlgorithm.new
 
 	if number < 0
-		erb :negative_factorial, :locals => { :number => number }
+		erb :negative_factorial
 	elsif number == 0
 		erb :zero_factorial, :locals => { :number => number, :statement => session[:factorial].factorial_statement(number), :factorial => session[:factorial].factorial(number) }
 	else	
@@ -51,4 +49,12 @@ end
 
 post '/fibonacci' do
 	erb :fibonacci
+	number = params[:fibonacci_number].to_i
+	session[:fibonacci] = FibonacciAlgorithm.new
+
+	if number <= 0
+		erb :negative_fibonacci
+	else
+		erb :positive_fibonacci, :locals => { :number => number, :statement => session[:fibonacci].fibonacci_statement(number) }
+	end
 end

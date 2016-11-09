@@ -110,6 +110,17 @@ hr.programming-break {
     box-shadow: 3px 2px 7px rgba(77, 77, 77, 0.3)
 }
 
+.flash-container {
+	background-color: white;
+    display: inline-block;
+    width: 44%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 3%;
+    padding-bottom: 2%;
+    box-shadow: 3px 2px 7px rgba(77, 77, 77, 0.3)
+}
+
 .programming-text {
 	font-weight: 300;
 	font-size: 14px;
@@ -172,4 +183,26 @@ hr.programming-break {
 	float: right;
 	margin-right: 32%;
 	width: 38%;
+}
+
+.try-again a {
+	text-decoration: none;
+	color: #000000;
+}
+
+.try-again {
+	border: 1px solid #000000;
+	background-color: #ffffff;
+	font-size: 1em;
+	border-radius: 15px;
+	padding: 5px 8px;
+}
+
+.try-again:hover {
+	background-color: cadetblue;
+	color: #000000;
+}
+
+button a:hover {
+	color: white;
 }
